@@ -1,0 +1,16 @@
+/*selector de clase, permite generar estilos globales los cuales se pueden aplicar a mas de una etiqueta, para identificralos en HTML se le agrega el atributo class="nombre_clase" y en la oja de estilo se le agrega .nombre_clase*/
+.cuerpo{
+    background-color: crimson;
+}
+.titulo{
+    color: black;
+    background-color: white;
+}
+.subtitulo{
+    color: yellow;
+    font-style: italic;
+}
+.parrafo{
+    color: aqua;
+    font-weight: bolder;
+}
