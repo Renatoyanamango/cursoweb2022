@@ -1,0 +1,136 @@
+*{
+    padding: 20px;
+}
+body{
+    background-color: coral;
+}
+.contenedor{
+    background-color: white;
+}
+/*Agregamos color al texto del parrafo*/
+.parrafocolor{
+    color: yellowgreen;
+    border: solid;
+    border-color: red;
+}
+/*alineamos el parrafo a la derecha*/
+.parrafoderecha{
+    text-align: right;
+    border: solid;
+    border-color: red;
+}
+/*alineamos el parrafo al centro*/
+.parrafocentro{
+    text-align: center;
+    border: solid;
+    border-color: red;
+}
+/*alineamos el parrafo a la izquierda*/
+.parrafoizquierda{
+    text-align: left;
+    border: solid;
+    border-color: red;
+}
+/*Justificamos el parrafo*/
+.parrafojustificado{
+    text-align: justify;
+    border: solid;
+    border-color: red;
+}
+/*alineamos el parrafo a la parte superior*/
+.parrafosuperior{
+    vertical-align: top;
+    border: solid;
+    border-color: red;
+}
+/*alineamos el parrafo a la parte inferior*/
+.parrafoinferior{
+    vertical-align: bottom;
+    border: solid;
+    border-color: red;
+}
+/*alineamos el parrafo a la parte media*/
+.parrafomedio{
+    vertical-align: middle;
+    border: solid;
+    border-color: red;
+}
+/*Agregamos decoraciones al texto*/
+.parrafosobrelinea{
+    text-decoration: overline;
+    border: solid;
+    border-color: red;
+}
+.parrafosubrayado{
+    text-decoration: underline;
+    border: solid;
+    border-color: red;
+}
+.parrafotachado{
+    text-decoration: line-through;
+    border: solid;
+    border-color: red;
+}
+/*Agregamos transformaciones al texto*/
+.parrafomayuscula{
+    text-transform: uppercase;
+    border: solid;
+    border-color: red;
+}
+.parrafominuscula{
+    text-transform: lowercase;
+    border: solid;
+    border-color: red;
+}
+.parrafonombrepropio{
+    text-transform: capitalize;
+    border: solid;
+    border-color: red;
+}
+/*Agregamos espacios para los textos del parrafo*/
+.parrafosangria{
+    text-indent: 10px;
+    border: solid;
+    border-color: red;
+}
+.parrafoespacio{
+    letter-spacing: 15px;
+    border: solid;
+    border-color: red;
+}
+.parrafocomprimido{
+    letter-spacing: -3px;
+    border: solid;
+    border-color: red;
+}
+
+.parrafoespaciolinea{
+    line-height: 2px;
+    border: solid;
+    border-color: red;
+}
+.parrafoespaciolineaamplio{
+    line-height: 7px;
+    border: solid;
+    border-color: red;
+}
+.parrafoletraespacio{
+    word-spacing: 15px;
+    border: solid;
+    border-color: red;
+}
+.parrafoletracomprimido{
+    letter-spacing: -3px;
+    border: solid;
+    border-color: red;
+}
+.parrafosombra{
+    text-shadow: 2px 3px orange;
+    border: solid;
+    border-color: red;
+}
+.parrafosombradifuminado{
+    text-shadow: 2px 3px orange;
+    border: solid;
+    border-color: red;
+}

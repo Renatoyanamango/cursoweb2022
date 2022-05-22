@@ -1,0 +1,73 @@
+/*Importar letras de Google: cuando importas las letras de Google siempre se pone en el inicio del estilo*/
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+body{
+    background-color: bisque;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+
+/*llamamos a las letras descargadas de google */
+.fuente1{
+    font-family: 'Koulen', cursive;
+}
+/*agregando estilos al parrafo*/
+.fuente2{
+    font-style: italic;
+}
+.fuente3{
+    font-style: oblique;
+}
+.fuente4{
+    font-style: normal;
+}
+.fuente5{
+    font-weight: bold;
+}
+.fuente6{
+    font-weight: bolder;
+}
+.fuente7{
+    font-style: small;
+}
+.fuente8{
+    font-variant: small-caps;
+}
+.fuente9{
+    font-size: 25px;
+}
+.fuente10{
+    font-variant: normal;
+}
+/*utilizamos las fuentes descargadas*/
+@font-face {
+    font-family: "Zenloop";
+    src: url("/fonts/ZenLoop-Regular.ttf");
+}
+@font-face {
+    font-family: "Macondo";
+    src: url("/fonts/Macondo-Regular.ttf");
+}
+@font-face {
+    font-family: "Halloween";
+    src: url("/fonts/OctoberCrow.ttf");
+}
+@font-face {
+    font-family: "celta";
+    src: url("/fonts/RoyaltyCriminals-Italic.ttf");
+}
+.fuente11{
+    font-family: "Zenloop";
+}
+.fuente12{
+    font-family: "Macondo";
+}
+.fuente13{
+    font-family: "Halloween";
+}
+.fuente14{
+    font-family: "celta";
+}
