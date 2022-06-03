@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(156, 111, 52);
+}
+.contenedor{
+    background-color: aquamarine;
+}
+.titulo{
+    background-color: aqua;
+}
+.subtitulo{
+    background-color: azure;
+}
+.stitulo{
+    background-color: #1877f2;
+}
+ul{
+    background-color: greenyellow;
+    padding: 10px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+ul li{
+    background-color: yellow;
+    margin: 3px;
+}
+ul li p{
+    background-color: blueviolet;
+    margin: 3px;
+}
+.re{
+    background-color: aqua;
+}
+.fa-facebook{
+    font-size: 25px;
+    color: #1877f2;
+}
+.fa-whatsapp{
+    font-size: 25px;
+    color: #075e54;
+}
+.fa-instagram{
+    font-size: 25px;
+    color: #833ab4;
+}
