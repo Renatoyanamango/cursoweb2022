@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 8</title>
+    <script type="text/javascript">
+        //estructuras repetitivas
+        //te permiten repetir un bloque de codigo se clasifican en 3:
+        //mientras -> while
+        //Repetir ->do while
+        //Para ->for
+        //contador -> es una variable que permite llevar la cuenta de cuantas vueltas esta realizando el bucle, es importante poder tener un contador si no se generaria un bucle infinito 
+        //Sintaxis
+        //contador=contador+valor, -> valor es de cuanto en cuanto aumenta las repeticiones 
+        //Sintaxis del while
+        //while(condicion){
+        //     ..programas...
+        //     cont=cont+valor;
+        // }
+        //Sintaxis do while
+        //do{
+        //     ..programas...
+        //     cont=cont+valor;
+        // }
+        //Sintaxis for
+        //for(i=valor_inicial, i<valor_final;i++){
+        //     ..programas...
+        // }
+        //cuando el contador aumenta de uno en uno su sintaxis es la siguiente: cont=cont+1; pero se puede reeplazar por la siguiente: cont++;
+        //Ejemplo 1: Desarollar una aplicacion que permita ingresar un nombre y luego monstar un saludo 5 veces 
+        //definiendo variables
+        var nom="", cont=1;
+        //capturando valores
+        nom=prompt("Ingresa tu nombre: ")
+        //while
+        while(cont<=5){
+            document.write("Hola como estas "+nom+"<br>");
+            cont++;
+        }
+        //do while
+        cont=1;
+        do{
+            document.write("Hola como estas "+nom+"<br>");
+            cont++;
+        }while(cont<=5);
+        //for
+        cont=1;
+        for(i=1;cont<=5;cont++){
+            document.write("Hola como estas "+nom+"<br>");
+        }
+        document.write("<hr>")
+        //ejemplo 2:Desarrollar una aplicacion que te permita monstar los n primero numeros baturales
+        //definiendo variables 
+        var cont=1, can=0;
+        //capturando valores 
+        can=parseInt(prompt("Ingresa la cantidad de numeros: "));
+        //while
+        while(cont<=can){
+            document.write(cont+"<br>");
+            cont++;
+        }
+        //do while
+        cont=1;
+        do{
+            document.write(cont+"<br>");
+            cont++;
+        }while(cont<=can);
+        //for
+        cont=1;
+        for(cont;cont<=can;cont++){
+            document.write(cont+"<br>");
+        }
+        document.write("<hr>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

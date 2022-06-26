@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 6</title>
+    <script type="text/Javascript">
+        //Ejemplo 1
+        //Desarrollar una apliacion que permita calcular el sueldo final de un trabajador si se sabe que la categoria 2 y su turno es mañana se le aplicara una bonificacion del 7% en caso contrario no se le aplicara ninguna bonificacion.Monstrar todos los resultados
+        //Cuantas variables necesito?
+        //4
+        //Que tipo de variables necesito?
+        //Real,Texto,Entero
+        //Como se llamaria las variables?
+        //sb,cat,tur,bon,sf
+        //Que variables voy a leer?
+        //sb,cat,tur
+        //Definiendo variables
+        var sb=0, cat=0, tur="", bon=0, sf=0;
+        //capturando valores
+        sb=parseFloat(prompt("Ingrese el sueldo basico: "));
+        cat=parseInt(prompt("Ingrese la categoria: "));
+        tur=prompt("Ingrese el turno [M]o[T]o[N]: ");
+        //Condicion
+        if(cat==2 && tur=="m"){
+            bon=sb*0.07;
+        }else{
+            bon=0;
+        }
+        sf=sb+bon;
+        //Monstrar resultados
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificacion es: "+bon+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+        document.write("<hr>");
+        //Ejemplo 2
+        //Desarrollar una aplicacion que permita ingresar 3 numeros y luego calcular el mayor y el menor de los numeros. MOnstrar el mayor y menor numero.
+        //Cuantas variables necesito?
+        //5
+        //Que tipo de variables necesito?
+        //Real
+        //Como se llamaria las variables?
+        //n1,n2,n3,my,mn
+        //Que variables voy a leer?
+        //n1,n2,n3
+        //Definiendo variables
+        var n1=0, n2=0, n3=0, my=0, mn=0;
+        //capturando valores
+        n1=parseFloat(prompt("Ingrese el numero 1: "));
+        n2=parseFloat(prompt("Ingrese el numero 2: "));
+        n3=parseFloat(prompt("Ingrese el numero 3: "));
+        //Condicion
+        if(n1>n2 && n1>n3){
+            my=n1;
+        }else{
+            if(n2>n1 && n2>n3){
+                my=n2;
+            }else{
+                my=n3;
+            }
+        }
+        if(n1<n2 && n1<n3){
+            mn=n1;
+        }else{
+            if(n2<n1 && n2<n3){
+                mn=n2;
+            }else{
+                mn=n3;
+            }
+        }
+        //Monstrar resultados
+        document.write("El numero mayor es: "+my+"<br>");
+        document.write("El numero menor es: "+mn+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
