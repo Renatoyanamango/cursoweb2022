@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 9</title>
+    <script type="text/javascript">
+        // funciones y procedimientos
+        // los procedimientos y funciones permiten agrupar codigos de forma modular, de tal manera que puedo tener un bloque de codigos realice ciertas acciones.
+        // funciones
+        // las funciones devuelven siempre un valor
+        // Sintaxis 
+        // funcion Nombrefuncion (parametro){
+        //     ... programacion ... Nombrefuncionreturn valor;
+        // }
+        // Parametro: son valores que pueden o no estar presentes en la funcion, estos valores son necesarios para realizar la funcion si fuera nbecesario
+        // Return: es el valor que va a resolver la funcion, este valor sera importante porque define el tipo de dato de la funcion
+        //Cuantas variables necesito?
+        //4
+        //Que tipo de variables necesito?
+        //Real,Texto,Entero
+        //Como se llamaria las variables?
+        //sb,cat,tur,bon,sf
+        //Que variables voy a leer?
+        //sb,cat,tur
+        //Declarando funciones 
+        function calcularSuma(num1,num2){
+            return num1+num2;
+        }
+        function calcularResta(num1,num2){
+            return num1-num2;
+        }
+        function calcularMultiplicacion(num1,num2){
+            return num1*num2;
+        }
+        function calcularDivision(num1,num2){
+            return num1/num2;
+        }
+        //declarando funciones
+        var n1=0,n2=0,sum=0,res=0,mul=0,div=0;
+        //capturando valores 
+        n1=parseFloat(prompt("Ingrese el numero 1: "));
+        n2=parseFloat(prompt("Ingrese el numero 2: "));
+        //realizando operaciones
+        sum=calcularSuma(n1,n2);
+        res=calcularResta(n1,n2);
+        mul=calcularMultiplicacion(n1,n2);
+        div=calcularDivision(n1,n2);
+        //monstrando resultados
+        document.write("La Suma es: "+sum+"<br>");
+        document.write("La Resta es: "+res+"<br>");
+        document.write("La Multiplicacion es: "+mul+"<br>");
+        document.write("La Division es: "+div+"<br>");
+        document.write("<hr>");
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

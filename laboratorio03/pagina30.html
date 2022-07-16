@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 10</title>
+    <script type="text/javascript">
+        // procedimientos
+        // los procedimientos devuelven varios valores a la vez 
+        // Sintaxis 
+        // funcion Nombrefuncion (parametro){
+        //     ... programacion ...
+        // }
+        // Parametro: son valores que pueden o no estar presentes en el procedimiento, en caso esten presentes se necesitan parea el procedimiento
+
+        // Ejemplo1:Desarrollar una aplicacion permita ingresar tus datos personales como, nombres,apellidos,fecha de nacimiento y monstrar un mensaje con toda tu informacion
+        //Cuantas variables necesito?
+        //3
+        //Que tipo de variables necesito?
+        //Texto
+        //Como se llamaria las variables?
+        //nom,ape,fec
+        //Que variables voy a leer?
+        //nom,ape,fec
+        //creando el procedimiento
+        function MonstrarDatos(n,a,f){
+            document.write("Los datos personales son: <br>");
+            document.write("El nombre es: "+n+"<br>");
+            document.write("El apellido es: "+a+"<br>");
+            document.write("La fecha de nacimiento es: "+f+"<br>");
+        }
+        //declarando variables
+        var nom="", ape="", fec="";
+        //capturando valores
+        nom=prompt("Ingrese sus nombres");
+        ape=prompt("Ingrese sus apellidos");
+        fec=prompt("Ingrese su fecha de nacimiento");
+        //
+        document.write("Los datos personales son: <br>");
+        document.write("Los nombre son: "+nom+"<br>");
+        document.write("Los apellidos son: "+ape+"<br>");
+        document.write("La fecha de nacimiento es: "+fec+"<br>");
+        document.write("<hr>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
